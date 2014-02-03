@@ -1,0 +1,9 @@
+{
+  "name": "nodePerform",
+  "description": "node-express-based performance testing",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "express": "3.x"
+  }
+}
