@@ -3,8 +3,8 @@ nodePerform
 
 easily modified node.js Express app for quick performance comparisons
 
-Local Usage
-============
+Testing Locally or on a Server
+==============================
 
 Pre-requisites:  Install node and npm first
 
@@ -12,11 +12,14 @@ Pre-requisites:  Install node and npm first
 2. Change directory:  cd ./nodePerform
 3. Install dependencies: npm install
 4. Run: PORT=4000 node ./app.js
-5. Point Web Browser to: http://localhost:4000
+5. Point Web Browser to: http://localhost:4000 or http://wherever.it.is:4000
 
-Modulus
-========
-The Modulus.io command line tools work fine at steps #2 or later.
+Testing on Modulus.io Node/Meteor PaaS
+======================================
+1. As above, download source code: git clone https://github.com/DrPaulBrewer/nodePerform.git
+2. At this point, if you have a modulus.io account, the project create and deploy commands should work fine.
+3. Modulus will grab the dependencies itself, you do not need to have node or npm installed locally.
+
 
 Modifying the Tests
 ===================
