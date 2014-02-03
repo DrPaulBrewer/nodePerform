@@ -16,7 +16,10 @@ Pre-requisites:  Install node and npm first
 
 Testing on Modulus.io Node/Meteor PaaS
 ======================================
-1. As above, download source code: git clone https://github.com/DrPaulBrewer/nodePerform.git
+
+Pre-requisites:  Local computer for development, npm install -g modulus, set up modulus.io account
+
+1. As above, download source code locally: git clone https://github.com/DrPaulBrewer/nodePerform.git
 2. At this point, if you have a modulus.io account, the project create and deploy commands should work fine.
 3. Modulus will grab the dependencies itself, you do not need to have node or npm installed locally.
 
